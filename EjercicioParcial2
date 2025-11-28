@@ -1,5 +1,3 @@
-import scala.math._
-
 case class Estudiante(nombre: String, notas: List[Double])
 
 val estudiantes: List[Estudiante] = List(
