@@ -30,7 +30,7 @@ val estudiantes: List[Estudiante] = List(
 def consistencia(notas: List[Double]): Double = {
   val i = notas.length.toDouble
   val prom = notas.sum / i
-  val sumaCuadrados = notas.map(nota => (nota - prom)).sum
+  val suma = notas.map(nota => (nota - prom)).sum
 }
 
 val estudianteConsist = estudiantes
